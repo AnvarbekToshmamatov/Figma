@@ -1,13 +1,433 @@
-*{
-    margin: 0px 0px 0px 0px;
+
+body{
+    background-image: url(/img/orqa_fon.svg);
 }
 
-.fotter{
+/* Nav qism boshlandi */
 
-    background-color: aqua;
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_text_logo_t{
+    margin: 50px 0px 0px 470px;
+}
+
+.nav_text_t_bag p{
+
+    margin: 190px 0px 0px 352px;
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 36px;
+    color: #E15252;
+    
 
 }
 
-.fotter_input{
-    margin: 30px 60px;
+.nav_text_t_bag b{
+     
+    margin: 190px 0px 29px 352px;
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    color: black;
+    width: 473px;
+    height: 86px;
+    
+}
+
+.nav_text_t_k{
+
+    margin: 29px  0px 30px 352px;
+    width: 425px;
+    height: 68px;
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;    
+}
+
+.nav_button{
+
+    margin: 0px 0px 353px 340px;
+    padding: 12px 0px 0px 44px;
+    width: 160px;
+    height: 46px;
+    left: 352px;
+    top: 514px;
+    background: #E15252;
+    border-radius: 42px;    
+}
+
+.nav_button button{
+    
+    border: none;
+    background-color: #E15252;
+    width: 83px;
+    height: 22px;
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    
+} 
+
+.nav_photo{
+ margin-left: 0px;
+ margin-top: -10px;
+   
+} 
+
+/* nav qism tugadi */
+
+
+/* seliction qism boshlandi */
+
+.seliction_t_bag{
+
+    margin: 0px 703px 10px 703px;
+    width: 497px;
+    height: 64px;
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    color: #333333;
+    
+}
+
+.seliction_t_k{
+
+    margin: 0px 852px 140px 853px;
+    width: 198px;
+    height: 18px;
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    color: #E15252;
+
+}
+
+.seliction_photo_text{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 351px;
+}
+
+.seliction_photo_text  .photo_text1{
+    margin: 0px 72px 50px 363px;
+    width: 246px;
+    height: 362px;
+}
+
+.photo_text{
+    margin-right: 72px;
+    width: 246px;
+    height: 362px;    
+}
+
+.photo_text_img{
+   margin-left: 30px;
+   margin-bottom: 8px;
+}
+
+.photo_text_t_bag{
+    margin-bottom: 10px;
+    width: 246px;
+    height: 52px;
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #333333;
+    
+}
+
+.seliction_button a{
+
+    margin: 0px 847px 100px 848px;
+    width: 208px;
+    height: 46px;
+    background: #E15252;
+    box-shadow: 0px 4px 20px rgba(225, 82, 82, 0.5);
+    border-radius: 42px;    
+}
+
+
+.seliction_button{
+
+    margin: 0px  847px 100px 848px;
+    padding: 12px 0px 0px 44px;
+    width: 208px;
+    height: 46px;    
+    left: 352px;
+    top: 514px;
+    background: #E15252;
+    border-radius: 42px;    
+}
+
+.seliction_button button{
+    
+    border: none;
+    background-color: #E15252;
+    width: 152px;
+    height: 22px;
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    
+} 
+
+/* seliction qism tugadi */
+
+/* article qism boshlandi */
+
+.article_text_bag{
+
+    margin: 0px 809px 10px 808px;
+    width: 286px;
+    height: 64px;
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+
+.article_text_k{
+
+    margin: 0px 875px 50px 874px;
+    width: 154px;
+    height: 18px;
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    color: #333333;
+    
+}
+
+.article_display{
+    display: flex;
+    
+}
+
+.article_d_photo{
+    margin: 0px 30px 100px 352px;
+}
+
+.article_d_t_bag{
+
+    margin: 189px 322px 22px 0px;
+    width: 352px;
+    height: 46px;
+    font-family: 'Vampiro One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 100%;
+    color: #333333;
+    
+}
+
+.article_d_t_ch{
+
+    margin: 0px 584px 20px 0px;
+    width: 90px;
+    height: 2px;
+    background: #E15252;
+    border-radius: 1px;    
+}
+
+.article_d_t_k{
+
+    margin: 0px 322px 30px 0px;
+    width: 352px;
+    height: 204px;
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4F4F4F;    
+}
+
+
+.article_d_t_button{
+
+    margin: 0px 466px 239px 0px
+    padding: 12px 0px 0px 44px;
+    width: 208px;
+    height: 46px;    
+    left: 352px;
+    top: 514px;
+    background: #E15252;
+    border-radius: 42px;    
+}
+
+.article_d_t_button button{
+    
+    border: none;
+    background-color: #E15252;
+    width: 152px;
+    height: 22px;
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    
+} 
+
+/* article qism tugadi */
+
+/* footer qism boshlandi */
+
+.footer_text_bag{
+
+    margin: 0px 779px 10px 778px;
+    width: 346px;
+    height: 64px;
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+
+.footer_text_k{
+
+    margin: 0px 887px 50px 887px ;
+    width: 130px;
+    height: 18px;
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    color: #333333;
+   
+}
+
+.footer_display{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer_d_i1 input{
+
+    margin: 0px 102px 14px 462px;
+    border: none;
+    width: 374px;
+    height: 56px;
+    background: #FFFFFF;
+    border-radius: 61px;        
+}
+
+.footer_d_i2 input{
+    margin: 0px 208px 190px 565px;
+    width: 168px;
+    height: 56px;
+    border: 3px solid #FFFFFF;
+    border-radius: 61px;
+    background-color: #E15252;    
+}
+
+.footer_a1{
+
+    display: flex;
+
+}
+
+.a1_photo{
+
+    margin: 30px 22px 34px 0px;
+
+}
+
+.a1_gmail{
+
+    margin: 30px 820px 36px 0px;
+    width: 100px;
+    height: 17px;
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    
+}
+
+.a2_photo{
+    margin: 0px 23px 35px 0px;
+
+}
+
+.a2_number{
+
+    margin: 0px 823px 37px 0px;
+    width: 100px;
+    height: 17px;
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    
+}
+
+.a3_photo{
+
+    margin: 0px 23px 250px 0px;
+
+}
+
+.a3_addres{
+
+    margin: 0px 653px 295px 0px;
+    width: 270px;
+    height: 17px;
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    
 }
